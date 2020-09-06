@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import thisismydesign from './thisismydesign.gif';
+import YoutubePlayer from './YoutubePlayer';
 import './App.css';
 
 function App() {
@@ -12,7 +13,7 @@ function App() {
         <p>
           This is only the beginning.
         </p>
-      
+      <YoutubePlayer/>
       </header>
     </div>
   );
